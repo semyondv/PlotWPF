@@ -1,0 +1,13 @@
+﻿<Window x:Class="Plot.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Plot"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="720" Width="1270" MouseMove="Window_MouseMove" MouseWheel="Window_MouseWheel" KeyDown="Window_KeyDown" >
+    <Grid>
+        <Canvas HorizontalAlignment="Left" Height="669" Margin="10,10,0,0" VerticalAlignment="Top" Width="1242" Loaded="Canvas_Loaded"/>
+
+    </Grid>
+</Window>
